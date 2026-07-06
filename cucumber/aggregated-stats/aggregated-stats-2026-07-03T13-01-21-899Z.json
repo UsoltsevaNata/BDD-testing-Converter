@@ -1,0 +1,452 @@
+{
+  "timestamp": "2026-07-03T13-01-21-899Z",
+  "config": {
+    "totalLogFiles": 25,
+    "usedLogFiles": 25,
+    "skippedFirstN": 0,
+    "confidenceLevel": 0.95,
+    "criticalValue": 1.96
+  },
+  "summaryAcrossRuns": {
+    "avgSummary": {
+      "totalTests": 20,
+      "passed": 20,
+      "failed": 0,
+      "sumDurationMs": 10265.32,
+      "avgPeakMemoryMB": 81.22987132263185,
+      "maxPeakMemoryMB": 98.43547821044922,
+      "avgPeakCpuUserMs": null,
+      "avgPeakCpuSystemMs": null
+    },
+    "confidenceIntervals": {
+      "sumDurationMs": {
+        "mean": 10265.32,
+        "variance": 78280.14333333333,
+        "std": 279.78588837418755,
+        "sem": 55.95717767483751,
+        "ciLower": 10155.643931757319,
+        "ciUpper": 10374.99606824268,
+        "min": 9958,
+        "max": 11099
+      },
+      "avgPeakMemoryMB": {
+        "mean": 81.22987132263185,
+        "variance": 9.082646075453464,
+        "std": 3.013742868171315,
+        "sem": 0.602748573634263,
+        "ciLower": 80.04848411830869,
+        "ciUpper": 82.41125852695501,
+        "min": 77.98049583435059,
+        "max": 87.17783813476562
+      },
+      "maxPeakMemoryMB": {
+        "mean": 98.43547821044922,
+        "variance": 3.37944212006308,
+        "std": 1.8383259014829443,
+        "sem": 0.36766518029658884,
+        "ciLower": 97.7148544570679,
+        "ciUpper": 99.15610196383054,
+        "min": 97.06171417236328,
+        "max": 102.61833953857422
+      },
+      "avgPeakCpuUserMs": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      },
+      "avgPeakCpuSystemMs": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "testStats": [
+    {
+      "testName": "Конвертация массы",
+      "count": 25,
+      "statusCount": {
+        "passed": 25
+      },
+      "duration": {
+        "mean": 1136.24,
+        "variance": 10366.02333333333,
+        "std": 101.81366967815929,
+        "sem": 20.36273393563186,
+        "ciLower": 1096.3290414861615,
+        "ciUpper": 1176.1509585138385,
+        "min": 1062,
+        "max": 1501
+      },
+      "memory": {
+        "mean": 70.55696990966797,
+        "variance": 19.938484746708998,
+        "std": 4.465253043972872,
+        "sem": 0.8930506087945744,
+        "ciLower": 68.8065907164306,
+        "ciUpper": 72.30734910290533,
+        "min": 68.12774658203125,
+        "max": 79.39472961425781
+      },
+      "cpuUser": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      },
+      "cpuSystem": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "testName": "Конвертация длины",
+      "count": 125,
+      "statusCount": {
+        "passed": 125
+      },
+      "duration": {
+        "mean": 442.152,
+        "variance": 2513.6783225806453,
+        "std": 50.136596639387534,
+        "sem": 4.484353529846321,
+        "ciLower": 433.3626670815012,
+        "ciUpper": 450.9413329184988,
+        "min": 392,
+        "max": 821
+      },
+      "memory": {
+        "mean": 85.83226513671875,
+        "variance": 75.92648259740082,
+        "std": 8.713580354676305,
+        "sem": 0.7793663200185178,
+        "ciLower": 84.30470714948245,
+        "ciUpper": 87.35982312395504,
+        "min": 63.778907775878906,
+        "max": 97.43901062011719
+      },
+      "cpuUser": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      },
+      "cpuSystem": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "testName": "Конвертация температуры",
+      "count": 75,
+      "statusCount": {
+        "passed": 75
+      },
+      "duration": {
+        "mean": 441.52,
+        "variance": 1755.928648648649,
+        "std": 41.90380231731542,
+        "sem": 4.838634309594184,
+        "ciLower": 432.03627675319535,
+        "ciUpper": 451.0037232468046,
+        "min": 396,
+        "max": 675
+      },
+      "memory": {
+        "mean": 80.15776153564452,
+        "variance": 90.97542513772282,
+        "std": 9.53810385442111,
+        "sem": 1.1013653655817268,
+        "ciLower": 77.99908541910435,
+        "ciUpper": 82.3164376521847,
+        "min": 69.55725860595703,
+        "max": 102.13350677490234
+      },
+      "cpuUser": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      },
+      "cpuSystem": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "testName": "Проверка ошибок ввода",
+      "count": 175,
+      "statusCount": {
+        "passed": 175
+      },
+      "duration": {
+        "mean": 444.54285714285714,
+        "variance": 5841.904761904761,
+        "std": 76.43235415650076,
+        "sem": 5.777742891923286,
+        "ciLower": 433.2184810746875,
+        "ciUpper": 455.8672332110268,
+        "min": 390,
+        "max": 1249
+      },
+      "memory": {
+        "mean": 85.02542471749442,
+        "variance": 119.39857545483578,
+        "std": 10.926965519065016,
+        "sem": 0.8260009528006812,
+        "ciLower": 83.40646285000508,
+        "ciUpper": 86.64438658498375,
+        "min": 63.25352478027344,
+        "max": 102.61833953857422
+      },
+      "cpuUser": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      },
+      "cpuSystem": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "testName": "Результат добавляется в историю",
+      "count": 25,
+      "statusCount": {
+        "passed": 25
+      },
+      "duration": {
+        "mean": 435.84,
+        "variance": 1612.3899999999996,
+        "std": 40.15457632698918,
+        "sem": 8.030915265397836,
+        "ciLower": 420.0994060798202,
+        "ciUpper": 451.58059392017975,
+        "min": 390,
+        "max": 606
+      },
+      "memory": {
+        "mean": 70.77712982177735,
+        "variance": 128.7602886357368,
+        "std": 11.347259080312602,
+        "sem": 2.2694518160625203,
+        "ciLower": 66.32900426229482,
+        "ciUpper": 75.22525538125988,
+        "min": 63.26592254638672,
+        "max": 99.75724029541016
+      },
+      "cpuUser": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      },
+      "cpuSystem": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "testName": "Несколько конвертаций",
+      "count": 25,
+      "statusCount": {
+        "passed": 25
+      },
+      "duration": {
+        "mean": 627.92,
+        "variance": 632.9099999999999,
+        "std": 25.157702597812857,
+        "sem": 5.031540519562571,
+        "ciLower": 618.0581805816573,
+        "ciUpper": 637.7818194183426,
+        "min": 584,
+        "max": 714
+      },
+      "memory": {
+        "mean": 74.42449035644532,
+        "variance": 186.60955138050485,
+        "std": 13.660510655920037,
+        "sem": 2.7321021311840075,
+        "ciLower": 69.06957017932466,
+        "ciUpper": 79.77941053356598,
+        "min": 64.41914367675781,
+        "max": 100.58714294433594
+      },
+      "cpuUser": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      },
+      "cpuSystem": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "testName": "Очистка истории",
+      "count": 25,
+      "statusCount": {
+        "passed": 25
+      },
+      "duration": {
+        "mean": 970.68,
+        "variance": 1369.8100000000002,
+        "std": 37.01094432732027,
+        "sem": 7.402188865464053,
+        "ciLower": 956.1717098236904,
+        "ciUpper": 985.1882901763095,
+        "min": 923,
+        "max": 1112
+      },
+      "memory": {
+        "mean": 73.56867706298829,
+        "variance": 138.56670478676526,
+        "std": 11.771435969615824,
+        "sem": 2.354287193923165,
+        "ciLower": 68.95427416289888,
+        "ciUpper": 78.18307996307769,
+        "min": 64.22781372070312,
+        "max": 100.4066162109375
+      },
+      "cpuUser": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      },
+      "cpuSystem": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "testName": "Ошибка не попадает в историю",
+      "count": 25,
+      "statusCount": {
+        "passed": 25
+      },
+      "duration": {
+        "mean": 447.52,
+        "variance": 6503.426666666666,
+        "std": 80.64382596743948,
+        "sem": 16.128765193487897,
+        "ciLower": 415.9076202207637,
+        "ciUpper": 479.13237977923626,
+        "min": 400,
+        "max": 815
+      },
+      "memory": {
+        "mean": 70.45757598876953,
+        "variance": 85.14464551593603,
+        "std": 9.227385627355998,
+        "sem": 1.8454771254711997,
+        "ciLower": 66.84044082284598,
+        "ciUpper": 74.07471115469309,
+        "min": 63.687843322753906,
+        "max": 101.25330352783203
+      },
+      "cpuUser": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      },
+      "cpuSystem": {
+        "mean": 0,
+        "variance": 0,
+        "std": 0,
+        "sem": 0,
+        "ciLower": 0,
+        "ciUpper": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  ]
+}

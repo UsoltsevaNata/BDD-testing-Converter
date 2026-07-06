@@ -1,0 +1,177 @@
+{
+  "timestamp": "2026-07-03T08-40-34-295Z",
+  "summary": {
+    "totalTests": 20,
+    "passed": 20,
+    "failed": 0,
+    "sumDurationMs": 9991,
+    "avgPeakMemoryMB": 86.77179641723633,
+    "maxPeakMemoryMB": 102.27893829345703,
+    "avgCpuUserPercent": 9.250570343361534,
+    "avgCpuSystemPercent": 1.1071459402430883,
+    "maxCpuUserPercent": 29.342723004694836,
+    "maxCpuSystemPercent": 7.380952380952381
+  },
+  "testResults": [
+    {
+      "testName": "Конвертация массы",
+      "status": "passed",
+      "durationMs": 1108,
+      "peakMemoryMB": 79.26802062988281,
+      "cpuUserPercent": 7.129963898916968,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Конвертация длины",
+      "status": "passed",
+      "durationMs": 426,
+      "peakMemoryMB": 80.31427001953125,
+      "cpuUserPercent": 29.342723004694836,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Конвертация длины",
+      "status": "passed",
+      "durationMs": 488,
+      "peakMemoryMB": 67.99144744873047,
+      "cpuUserPercent": 15.983606557377051,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Конвертация длины",
+      "status": "passed",
+      "durationMs": 420,
+      "peakMemoryMB": 74.66632080078125,
+      "cpuUserPercent": 7.380952380952381,
+      "cpuSystemPercent": 7.380952380952381
+    },
+    {
+      "testName": "Конвертация длины",
+      "status": "passed",
+      "durationMs": 425,
+      "peakMemoryMB": 81.37860870361328,
+      "cpuUserPercent": 11.058823529411764,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Конвертация длины",
+      "status": "passed",
+      "durationMs": 421,
+      "peakMemoryMB": 87.83953094482422,
+      "cpuUserPercent": 7.363420427553444,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Конвертация температуры",
+      "status": "passed",
+      "durationMs": 396,
+      "peakMemoryMB": 94.36505889892578,
+      "cpuUserPercent": 3.787878787878788,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Конвертация температуры",
+      "status": "passed",
+      "durationMs": 433,
+      "peakMemoryMB": 100.86441802978516,
+      "cpuUserPercent": 14.318706697459586,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Конвертация температуры",
+      "status": "passed",
+      "durationMs": 423,
+      "peakMemoryMB": 102.13350677490234,
+      "cpuUserPercent": 14.657210401891252,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Проверка ошибок ввода",
+      "status": "passed",
+      "durationMs": 398,
+      "peakMemoryMB": 75.2801284790039,
+      "cpuUserPercent": 11.809045226130653,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Проверка ошибок ввода",
+      "status": "passed",
+      "durationMs": 438,
+      "peakMemoryMB": 81.7731704711914,
+      "cpuUserPercent": 3.65296803652968,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Проверка ошибок ввода",
+      "status": "passed",
+      "durationMs": 459,
+      "peakMemoryMB": 88.25035858154297,
+      "cpuUserPercent": 0,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Проверка ошибок ввода",
+      "status": "passed",
+      "durationMs": 429,
+      "peakMemoryMB": 94.73329162597656,
+      "cpuUserPercent": 3.7296037296037294,
+      "cpuSystemPercent": 3.7296037296037294
+    },
+    {
+      "testName": "Проверка ошибок ввода",
+      "status": "passed",
+      "durationMs": 395,
+      "peakMemoryMB": 101.23240661621094,
+      "cpuUserPercent": 15.69620253164557,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Проверка ошибок ввода",
+      "status": "passed",
+      "durationMs": 448,
+      "peakMemoryMB": 102.27893829345703,
+      "cpuUserPercent": 7.142857142857142,
+      "cpuSystemPercent": 3.3482142857142856
+    },
+    {
+      "testName": "Проверка ошибок ввода",
+      "status": "passed",
+      "durationMs": 420,
+      "peakMemoryMB": 74.82880401611328,
+      "cpuUserPercent": 3.571428571428571,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Результат добавляется в историю",
+      "status": "passed",
+      "durationMs": 432,
+      "peakMemoryMB": 81.54045104980469,
+      "cpuUserPercent": 7.175925925925926,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Несколько конвертаций",
+      "status": "passed",
+      "durationMs": 622,
+      "peakMemoryMB": 95.94235229492188,
+      "cpuUserPercent": 7.556270096463022,
+      "cpuSystemPercent": 2.572347266881029
+    },
+    {
+      "testName": "Очистка истории",
+      "status": "passed",
+      "durationMs": 959,
+      "peakMemoryMB": 96.84644317626953,
+      "cpuUserPercent": 3.232533889468196,
+      "cpuSystemPercent": 1.5641293013555788
+    },
+    {
+      "testName": "Ошибка не попадает в историю",
+      "status": "passed",
+      "durationMs": 451,
+      "peakMemoryMB": 73.90840148925781,
+      "cpuUserPercent": 10.42128603104213,
+      "cpuSystemPercent": 3.5476718403547673
+    }
+  ]
+}

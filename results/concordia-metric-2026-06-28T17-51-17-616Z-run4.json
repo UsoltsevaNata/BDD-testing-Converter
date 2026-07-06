@@ -1,0 +1,176 @@
+{
+  "timestamp": "2026-06-28T17-51-17-616Z",
+  "run": 4,
+  "summary": {
+    "totalTests": 20,
+    "passed": 20,
+    "failed": 0,
+    "sumDurationMs": 123750,
+    "avgPeakMemoryMB": 658.665234375,
+    "maxPeakMemoryMB": 2526.40234375,
+    "avgPeakCpuUserPercent": 3134.24,
+    "avgPeakCpuSystemPercent": 1531.01
+  },
+  "testResults": [
+    {
+      "testName": "Kilograms to grams | kilograms_to_grams - 1",
+      "status": "passed",
+      "durationMs": 5559,
+      "peakMemoryMB": 553.0390625,
+      "peakCpuUserPercent": 92.19,
+      "peakCpuSystemPercent": 89.37
+    },
+    {
+      "testName": "Meters to kilometers | meters_to_kilometers - 1",
+      "status": "passed",
+      "durationMs": 5558,
+      "peakMemoryMB": 548.08984375,
+      "peakCpuUserPercent": 88.54,
+      "peakCpuSystemPercent": 86.02
+    },
+    {
+      "testName": "Kilometers to meters | kilometers_to_meters - 1",
+      "status": "passed",
+      "durationMs": 5523,
+      "peakMemoryMB": 549.33984375,
+      "peakCpuUserPercent": 83.45,
+      "peakCpuSystemPercent": 87.69
+    },
+    {
+      "testName": "Meters to centimeters | meters_to_centimeters - 1",
+      "status": "passed",
+      "durationMs": 5511,
+      "peakMemoryMB": 551.421875,
+      "peakCpuUserPercent": 89.02,
+      "peakCpuSystemPercent": 81.07
+    },
+    {
+      "testName": "Centimeters to meters | centimeters_to_meters - 1",
+      "status": "passed",
+      "durationMs": 5537,
+      "peakMemoryMB": 548.44140625,
+      "peakCpuUserPercent": 93.97,
+      "peakCpuSystemPercent": 87.76
+    },
+    {
+      "testName": "Meters to millimeters | meters_to_millimeters - 1",
+      "status": "passed",
+      "durationMs": 5530,
+      "peakMemoryMB": 548.125,
+      "peakCpuUserPercent": 89.84,
+      "peakCpuSystemPercent": 89.28
+    },
+    {
+      "testName": "Celsius to Fahrenheit | celsius_to_fahrenheit - 1",
+      "status": "passed",
+      "durationMs": 5541,
+      "peakMemoryMB": 547.86328125,
+      "peakCpuUserPercent": 93.05,
+      "peakCpuSystemPercent": 91.64
+    },
+    {
+      "testName": "Fahrenheit to Celsius | fahrenheit_to_celsius - 1",
+      "status": "passed",
+      "durationMs": 5536,
+      "peakMemoryMB": 2526.40234375,
+      "peakCpuUserPercent": 55314.63,
+      "peakCpuSystemPercent": 23641.55
+    },
+    {
+      "testName": "Kelvin to Celsius | kelvin_to_celsius - 1",
+      "status": "passed",
+      "durationMs": 5515,
+      "peakMemoryMB": 549.79296875,
+      "peakCpuUserPercent": 92.08,
+      "peakCpuSystemPercent": 85.84
+    },
+    {
+      "testName": "Non-numeric value | alphabetic_string - 1",
+      "status": "passed",
+      "durationMs": 5558,
+      "peakMemoryMB": 552.33984375,
+      "peakCpuUserPercent": 92.21,
+      "peakCpuSystemPercent": 88.27
+    },
+    {
+      "testName": "Сharacters | characters - 1",
+      "status": "passed",
+      "durationMs": 5551,
+      "peakMemoryMB": 548.03125,
+      "peakCpuUserPercent": 87.53,
+      "peakCpuSystemPercent": 90.34
+    },
+    {
+      "testName": "Negative mass | negative_mass - 1",
+      "status": "passed",
+      "durationMs": 5533,
+      "peakMemoryMB": 551.4453125,
+      "peakCpuUserPercent": 88.38,
+      "peakCpuSystemPercent": 97.7
+    },
+    {
+      "testName": "Negative length | negative_length - 1",
+      "status": "passed",
+      "durationMs": 5572,
+      "peakMemoryMB": 751.41015625,
+      "peakCpuUserPercent": 5819.54,
+      "peakCpuSystemPercent": 5425.27
+    },
+    {
+      "testName": "Negative Kelvin | negative_kelvin - 1",
+      "status": "passed",
+      "durationMs": 5548,
+      "peakMemoryMB": 548.18359375,
+      "peakCpuUserPercent": 82.52,
+      "peakCpuSystemPercent": 90.95
+    },
+    {
+      "testName": "Below absolute zero Celsius | below_absolute_zero_celsius - 1",
+      "status": "passed",
+      "durationMs": 5566,
+      "peakMemoryMB": 549.3828125,
+      "peakCpuUserPercent": 99.37,
+      "peakCpuSystemPercent": 98.24
+    },
+    {
+      "testName": "Below absolute zero Fahrenheit | below_absolute_zero_fahrenheit - 1",
+      "status": "passed",
+      "durationMs": 5570,
+      "peakMemoryMB": 550.125,
+      "peakCpuUserPercent": 90.59,
+      "peakCpuSystemPercent": 93.68
+    },
+    {
+      "testName": "Result added to history | result_added - 1",
+      "status": "passed",
+      "durationMs": 5547,
+      "peakMemoryMB": 548.91796875,
+      "peakCpuUserPercent": 88.16,
+      "peakCpuSystemPercent": 97.17
+    },
+    {
+      "testName": "Multiple conversions | three_conversions - 1",
+      "status": "passed",
+      "durationMs": 16292,
+      "peakMemoryMB": 548.97265625,
+      "peakCpuUserPercent": 29.54,
+      "peakCpuSystemPercent": 30.59
+    },
+    {
+      "testName": "Clear history | history_cleared - 1",
+      "status": "passed",
+      "durationMs": 7658,
+      "peakMemoryMB": 551.6171875,
+      "peakCpuUserPercent": 71.82,
+      "peakCpuSystemPercent": 73.03
+    },
+    {
+      "testName": "Error not added to history | invalid_input_skipped - 1",
+      "status": "passed",
+      "durationMs": 5545,
+      "peakMemoryMB": 550.36328125,
+      "peakCpuUserPercent": 98.34,
+      "peakCpuSystemPercent": 94.68
+    }
+  ]
+}

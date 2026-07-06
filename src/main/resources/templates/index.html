@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Конвертация длины, массы, температуры</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <h1>Конвертация длины, массы, температуры</h1>
+    </header>
+
+    <form id="converterForm" action="/convert" method="get" class="card">
+        <div class="form-group">
+            <label for="value">Значение</label>
+            <input type="text" id="value" name="value"
+                   th:value="${inputValue}"
+                   placeholder="Введите число"
+                   autocomplete="off" required>
+        </div>
+
+        <div class="form-group">
+            <label for="type">Конвертация</label>
+            <select id="type" name="type" required>
+                <option value="">— выберите —</option>
+                <option th:each="entry : ${conversions}"
+                        th:value="${entry.key}"
+                        th:text="${entry.value}"
+                        th:selected="${entry.key == selectedType}">
+                </option>
+            </select>
+        </div>
+
+        <button type="submit" id="convertBtn" class="btn-primary">Рассчитать</button>
+    </form>
+
+    <div th:if="${error}" id="errorBlock" class="message error-msg">
+        <span>Ошибка:</span> <span th:text="${error}"></span>
+    </div>
+
+    <div th:if="${result}" id="resultBlock" class="message result-msg">
+        <div class="result-main" id="resultText" th:text="${result}"></div>
+    </div>
+
+    <div th:if="${history != null and !history.isEmpty()}" class="card history-card">
+        <div class="history-header">
+            <h2>История</h2>
+            <form action="/clear" method="post" style="display:inline">
+                <button type="submit" id="clearHistoryBtn" class="btn-clear">Очистить</button>
+            </form>
+        </div>
+        <ul id="historyList" class="history-list">
+            <li th:each="item : ${history}" th:text="${item}"></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

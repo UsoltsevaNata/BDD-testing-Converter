@@ -1,0 +1,256 @@
+# Generated with ❤ by Concordia
+#
+# THIS IS A GENERATED FILE - MODIFICATIONS CAN BE LOST !
+
+#language:en
+
+import "concordia_test.feature"
+
+@generated
+@scenario(1)
+@variant(1)
+Test case: kilograms_to_grams - 1
+  Given that I am on "/"
+  When I fill "5" in <#value>  # {value}
+    And I select "kg-to-g" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "5 кг = 5000 г"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(2)
+@variant(1)
+Test case: meters_to_kilometers - 1
+  Given that I am on "/"
+  When I fill "1500" in <#value>  # {value}
+    And I select "m-to-km" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "1,5"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(3)
+@variant(1)
+Test case: kilometers_to_meters - 1
+  Given that I am on "/"
+  When I fill "1" in <#value>  # {value}
+    And I select "km-to-m" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "1 км = 1000 м"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(4)
+@variant(1)
+Test case: meters_to_centimeters - 1
+  Given that I am on "/"
+  When I fill "1" in <#value>  # {value}
+    And I select "m-to-cm" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "1 м = 100 см"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(5)
+@variant(1)
+Test case: centimeters_to_meters - 1
+  Given that I am on "/"
+  When I fill "250" in <#value>  # {value}
+    And I select "cm-to-m" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "2,5"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(6)
+@variant(1)
+Test case: meters_to_millimeters - 1
+  Given that I am on "/"
+  When I fill "3" in <#value>  # {value}
+    And I select "m-to-mm" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "3 м = 3000 мм"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(7)
+@variant(1)
+Test case: celsius_to_fahrenheit - 1
+  Given that I am on "/"
+  When I fill "100" in <#value>  # {value}
+    And I select "c-to-f" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "100 C = 212 F"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(8)
+@variant(1)
+Test case: fahrenheit_to_celsius - 1
+  Given that I am on "/"
+  When I fill "32" in <#value>  # {value}
+    And I select "f-to-c" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "0"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(9)
+@variant(1)
+Test case: kelvin_to_celsius - 1
+  Given that I am on "/"
+  When I fill "0" in <#value>  # {value}
+    And I select "k-to-c" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "-273,15"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(10)
+@variant(1)
+Test case: alphabetic_string - 1
+  Given that I am on "/"
+  When I fill "abc" in <#value>  # {value}
+    And I select "kg-to-g" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see field <#errorBlock> contains "Введите корректное числовое значение"  # {errorBlock}
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(11)
+@variant(1)
+Test case: characters - 1
+  Given that I am on "/"
+  When I fill "!@#" in <#value>  # {value}
+    And I select "m-to-km" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see field <#errorBlock> contains "Введите корректное числовое значение"  # {errorBlock}
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(12)
+@variant(1)
+Test case: negative_mass - 1
+  Given that I am on "/"
+  When I fill "-5" in <#value>  # {value}
+    And I select "kg-to-g" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see field <#errorBlock> contains "Значение не может быть отрицательным"  # {errorBlock}
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(13)
+@variant(1)
+Test case: negative_length - 1
+  Given that I am on "/"
+  When I fill "-100" in <#value>  # {value}
+    And I select "m-to-km" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see field <#errorBlock> contains "Значение не может быть отрицательным"  # {errorBlock}
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(14)
+@variant(1)
+Test case: negative_kelvin - 1
+  Given that I am on "/"
+  When I fill "-10" in <#value>  # {value}
+    And I select "k-to-c" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see field <#errorBlock> contains "Температура в Кельвинах не может быть отрицательной"  # {errorBlock}
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(15)
+@variant(1)
+Test case: below_absolute_zero_celsius - 1
+  Given that I am on "/"
+  When I fill "-300" in <#value>  # {value}
+    And I select "c-to-f" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see field <#errorBlock> contains "Температура ниже абсолютного нуля"  # {errorBlock}
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(16)
+@variant(1)
+Test case: below_absolute_zero_fahrenheit - 1
+  Given that I am on "/"
+  When I fill "-500" in <#value>  # {value}
+    And I select "f-to-c" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see field <#errorBlock> contains "Температура ниже абсолютного нуля"  # {errorBlock}
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(17)
+@variant(1)
+Test case: result_added - 1
+  Given that I am on "/"
+  When I fill "100" in <#value>  # {value}
+    And I select "m-to-km" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "0,1"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(18)
+@variant(1)
+Test case: three_conversions - 1
+  Given that I am on "/"
+  When I fill "5" in <#value>  # {value}
+    And I select "kg-to-g" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+    And I fill "100" in <#value>  # {value}
+    And I select "c-to-f" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+    And I fill "1" in <#value>  # {value}
+    And I select "km-to-m" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "5 кг = 5000 г"
+    And I see "100 C = 212 F"
+    And I see "1 км = 1000 м"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(19)
+@variant(1)
+Test case: history_cleared - 1
+  Given that I am on "/"
+  When I fill "1" in <#value>  # {value}
+    And I select "km-to-m" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+    And I click on field <#clearHistoryBtn>  # {clearHistoryBtn}
+    And I wait for 2 seconds
+  Then I don't see "1 км = 1000 м"
+
+# ------------------------------------------------------------------------------
+
+@generated
+@scenario(20)
+@variant(1)
+Test case: invalid_input_skipped - 1
+  Given that I am on "/"
+  When I fill "abc" in <#value>  # {value}
+    And I select "kg-to-g" in <#type>  # {type}
+    And I click on field <#convertBtn>  # {convertBtn}
+  Then I see "Введите корректное числовое значение"
+    And I don't see "abc кг"
