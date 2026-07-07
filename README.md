@@ -7,6 +7,8 @@ This repository contains a lightweight Spring Boot web application for unit conv
 - **Advisor and minor contributor:** Vladimir A. Parkhomenko, *Senior Lecturer at SPbPU ICSC*
 
 - **Test development and co‑author of Enhanced Gherkin modifications with Svetlana V. Gerus:** Natalia E. Usoltseva, *student at SPbPU ICSC*
+  
+- **Original author of Enhanced Gherkin Framework:** Svetlana V. Gerus, *student at SPbPU ICSC*
 
 ## Warranty
 
