@@ -1,53 +1,19 @@
-# Unit Converter Web Application
+## About
 
-A lightweight Spring Boot web application for converting between different units of measurement.  
-This project was created as a **test subject** for comparing three BDD (Behavior-Driven Development) frameworks:  
-**Cucumber**, **Enhanced Gherkin**, and **ConcordiaLang**.
+This repository contains a lightweight Spring Boot web application for unit conversion (length, mass, temperature), created as a test subject for comparing three BDD frameworks: Cucumber, Enhanced Gherkin, and ConcordiaLang. The work was completed as part of a research project at SPbPU Institute of Computer Science and Cybersecurity (SPbPU ICSC).
 
----
+## Authors and contributors
 
-## Features
+Advisor and minor contributor: Vladimir A. Parkhomenko, Senior Lecturer at SPbPU ICSC.
 
-- **Length conversions** – metres ↔ kilometres, metres ↔ centimetres, metres ↔ millimetres  
-- **Mass conversions** – kilograms ↔ grams, kilograms ↔ tonnes  
-- **Temperature conversions** – Celsius ↔ Fahrenheit, Celsius ↔ Kelvin, Kelvin ↔ Celsius  
-- **History tracking** – each successful conversion is stored and displayed  
-- **Input validation** – handles negative values, non‑numeric input, and absolute zero checks  
+Main Contributor (application development and test co‑author): Natalia E. Usoltseva, student of SPbPU ICSC.
 
-All conversion logic is implemented in a clean, service‑oriented architecture.
+Original author of Enhanced Gherkin Framework: Svetlana V. Gerus (the framework is used for testing, but is not part of this application).
 
----
+## Warranty
 
-## Technology Stack
+The contributors provide **no warranty** for the use of this software. Use it at your own risk.
 
-- **Java 17** + **Spring Boot 3.x**  
-- **Thymeleaf** for server‑side rendering  
-- **Maven** for build automation  
-- **Node.js** + **npm** for test runners (optional, only for BDD frameworks)
+## License
 
----
-
-## Why This Project?
-
-This application was designed specifically to serve as a **real‑world testing target** for BDD frameworks.  
-It provides a mix of:
-- simple CRUD‑like operations (history)
-- complex validation rules
-- many parameter combinations (12 conversion types)
-
-This makes it ideal for evaluating how well each BDD framework handles:
-- **repetitive scenarios** (loops, data tables)
-- **conditional logic** (validation branches)
-- **variable reuse** (storing and comparing values across steps)
-
----
-
-## Running the Application
-
-### Prerequisites
-- Java 17+
-- Maven 3.6+
-
-### Build and start
-```bash
-mvn spring-boot:run
+This project is open for use in educational purposes and is licensed under the [MIT License](LICENSE).
